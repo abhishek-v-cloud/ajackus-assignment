@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Employee Directory</title>
+  <link rel="stylesheet" href="static/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Employee Directory</h1>
+    <input type="text" id="searchInput" placeholder="Search by name or email" />
+    <button onclick="showForm()">Add Employee</button>
+  </header>
+
+  <section class="filters">
+    <select id="sortSelect">
+      <option value="">Sort By</option>
+      <option value="firstName">First Name</option>
+      <option value="department">Department</option>
+    </select>
+
+    <input type="text" id="filterFirstName" placeholder="Filter First Name" />
+    <input type="text" id="filterDepartment" placeholder="Filter Department" />
+    <input type="text" id="filterRole" placeholder="Filter Role" />
+    <button onclick="applyFilters()">Apply Filter</button>
+    <button onclick="resetFilters()">Reset</button>
+  </section>
+
+  <main id="employeeList"></main>
+
+  <section id="paginationControls"></section>
+
+  <section id="formSection" class="modal hidden">
+    <form id="employeeForm">
+      <h2 id="formTitle">Add Employee</h2>
+      <input type="hidden" id="empId" />
+      <input type="text" id="firstName" placeholder="First Name" required />
+      <input type="text" id="lastName" placeholder="Last Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="text" id="department" placeholder="Department" required />
+      <input type="text" id="role" placeholder="Role" required />
+      <div class="form-buttons">
+        <button type="submit">Add</button>
+        <button type="button" onclick="closeForm()">Cancel</button>
+      </div>
+    </form>
+  </section>
+
+  <script src="static/js/data.js"></script>
+  <script src="static/js/app.js"></script>
+</body>
+</html>
