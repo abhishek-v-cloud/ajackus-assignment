@@ -11,15 +11,7 @@
 ---
 ## Structure
 
-employee-directory/
-├── index.html # Main HTML page
-├── README.md # Project description
-├── static/
-│ ├── css/
-│ │ └── style.css # Styling (Flexbox/Grid responsive)
-│ └── js/
-│ ├── data.js # Mock employee data
-│ └── app.js # JavaScript logic (UI + interactivity)
+<img width="469" height="278" alt="image" src="https://github.com/user-attachments/assets/066badf9-c42a-486a-af0c-2c5d4bdb6228" />
 
 ---
 
@@ -75,6 +67,17 @@ employee-directory/
 - JavaScript
 
 ---
+---
+
+## Screenshots
+- Mobile view
+<img width="357" height="735" alt="image" src="https://github.com/user-attachments/assets/40043a32-2303-4f8d-9203-acb86f8e5939" />
+<img width="362" height="725" alt="image" src="https://github.com/user-attachments/assets/b829a9e5-4302-4d8d-ac11-c157cbde3b6f" />
+
+- Desktop view
+<img width="1894" height="878" alt="image" src="https://github.com/user-attachments/assets/f7a96ae6-b3cc-412a-bffe-fb7b4c017985" />
+<img width="1209" height="843" alt="image" src="https://github.com/user-attachments/assets/8d075c80-83f4-4b3b-b72e-d4b342b44978" />
 
 
 
+---
